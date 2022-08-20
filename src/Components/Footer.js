@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>כל הזכויות שמורות&copy;</div>
+    <div className='footer'>כל הזכויות שמורות&copy;</div>
   )
 }
 
