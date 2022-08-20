@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+/* .container {
+  grid-template-areas: 
+    "<grid-area-name> | . | none | ..."
+    "...";
+} */
+
+
 body {
   display: grid;
   grid-template-rows: auto;
@@ -12,6 +19,20 @@ body {
     "main main  sidebar"
     "footer footer footer footer";
 }
+
+/* 
+.item-a {
+  grid-area: header;
+}
+.item-b {
+  grid-area: main;
+}
+.item-c {
+  grid-area: sidebar;
+}
+.item-d {
+  grid-area: footer;
+} */
 
 .sidebar {
  height: 100vh;
