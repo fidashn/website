@@ -4,17 +4,18 @@
   box-sizing: border-box;
 }
 
-/* body {
+body {
   display: grid;
-  grid-template-columns: 4fr 1fr;
-} */
-
-.navbar {
- background-color: rgb(179, 215, 239);
- /* grid-area: 2 / col4-start / last-line / 5; */
+  grid-template-columns: 4fr;
+  grid-template-rows: 4fr 1fr;
 }
 
-.navbar-items {
+.sidebar {
+ background-color: rgb(179, 215, 239);
+ grid-area: 1 / col4-start / last-line / 5;
+}
+
+.sidebar-items {
   list-style: none;
   display:flex;
   flex-direction: column;
