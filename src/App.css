@@ -19,7 +19,7 @@ body {
 
 .sidebar {
  height: 95vh;
- width: 15%;
+ width: 200px;
  background-color: rgb(179, 215, 239);
  display:flex;
  flex-direction: column;
@@ -34,7 +34,14 @@ body {
   justify-content:space-around;
   align-items: center;
   height: 60%;
+  width: 50%;
+  color:black ;
   border: 2px solid red;
+}
+
+.icon{
+  border: 2px solid red;
+  height: 150px;
 }
 
 
