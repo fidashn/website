@@ -7,7 +7,7 @@ function Sidebar() {
   return (
     <div className='sidebar'>
       <ul className='sidebar-items'>
-        <li className='icon'><FaHome  /></li>
+        <li className='icon'><div className='home-icon'><FaHome/></div></li>
         <li className='icon'><BsStack /></li>
         <li className='icon'><BiCoinStack /></li>
       </ul>
