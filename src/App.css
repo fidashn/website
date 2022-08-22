@@ -43,6 +43,14 @@ body {
   border: 5px solid rgb(218, 212, 57);
 }
 
+/* .icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align:auto;
+  border: 3px salmon solid;
+} */
+
 
 .main-content{
   width: 60%;

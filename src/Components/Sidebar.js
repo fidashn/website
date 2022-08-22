@@ -6,9 +6,9 @@ function Sidebar() {
   return (
     <div className='sidebar'>
       <ul className='sidebar-items'>
-        <li><FontAwesomeIcon icon={faHouse} />דף הבית</li>
-        <li><FontAwesomeIcon icon={faCoins}  />פיננסי</li>
-        <li><FontAwesomeIcon icon={faLayerGroup}  />טכנולוגי</li>
+        <li><div><FontAwesomeIcon icon={faHouse} size="3x"/> דף הבית </div> </li>
+        <li><div><FontAwesomeIcon icon={faCoins} size="3x" />פיננסי</div></li>
+        <li><div><FontAwesomeIcon icon={faLayerGroup} size="3x" />טכנולוגי</div></li>
       </ul>
     </div>
   )
