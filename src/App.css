@@ -60,6 +60,7 @@ body {
 }
 
 .ads {
+  background-image: url(../src/img/ad.webp);
   width: auto;
   height: 30%;
   border: 5px solid rgb(71, 159, 20);
