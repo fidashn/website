@@ -24,7 +24,7 @@ body {
 .sidebar {
  height: 95vh;
  width: 200px;
- background-color: rgb(179, 215, 239);
+ background-color: #bedcfa;
  display:flex;
  flex-direction: column;
  justify-content:space-around;
