@@ -50,7 +50,7 @@ body {
 
 
 .main-content{
-  width: 60%;
+  max-width: 60%;
   margin-left: 15%;
   border: 5px solid rgba(146, 48, 141, 0.592);
 }
