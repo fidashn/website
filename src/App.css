@@ -56,13 +56,15 @@ body {
 }
 
 .main-content-p{
-  padding: 5% 5% 5% 5%;
+  padding: 5% 5% 1% 5%;
 }
 
 .ads {
   background-image: url(../src/img/ad.webp);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   width: auto;
-  height: 30%;
+  height:40%;
   border: 5px solid rgb(71, 159, 20);
 }
 
