@@ -55,6 +55,11 @@ body {
   border: 5px solid rgba(146, 48, 141, 0.592);
 }
 
+.main-content h1 {
+  display:flex;
+  justify-content:space-around;
+}
+
 .main-content-p{
   padding: 5% 5% 10% 5%;
 }
